@@ -1,0 +1,199 @@
+a {
+	text-decoration: none;
+}
+
+#logo {
+	margin: 50px auto 20px auto;
+	display: block;
+	max-width: 100%;
+}
+
+#hero {
+	margin: 50px auto 30px auto;
+	display: block;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	max-width: 100%;
+}
+
+#nav {
+	display: table;
+	font-size: 24px;
+	font-weight: bold;
+	margin: auto;
+}
+
+#nav a {
+	margin-right: 20px;
+	color: #7D7D7D;
+}
+
+#nav a:before {
+	font-size: 12px;
+	color: #cacaca;
+	margin-right: 5px;
+}
+
+.contact:before {
+	content: "03";
+}
+.home:before {
+	content: "01";
+}
+.about:before {
+	content: "02";
+}
+
+#nav a:last-child {
+	margin-right: 0;
+}
+
+.herotext {
+	display: table;
+	margin: auto;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 15px;
+	color: #7D7D7D;
+	text-align: center;
+}
+
+.blue {
+	color: #073270;
+}
+
+.counter {
+	display: table;
+	font-weight: bold;
+	margin: auto;
+	color: #073270;
+}
+
+.counter div {
+	display: block;
+	float: left;
+	font-size: 72px;
+	line-height: 1;
+	margin-right: 40px;
+}
+
+.counter div:last-child {
+	margin-right: 0;
+}
+
+.counter div:after {
+	display: block;
+	font-size: 18px;
+}
+
+#days:after {
+	content: "days";
+}
+
+#hours:after {
+	content: "hours";
+}
+
+#minutes:after {
+	content: "minutes";
+}
+
+#about {
+	background: #073270;
+}
+
+.bigicon {
+	margin: 100px auto 20px auto;
+	padding: 50px 0 10px 0;
+	display: block;
+}
+
+.icontext {
+	display: table;
+	margin: auto;
+	font-size: 16px;
+	margin-bottom: 15px;
+	color: white;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.showtee p {
+	font-size: 14px;
+	color: #3d3d3d;
+}
+
+.showtee img {
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+h3.sobs {
+	color: #403b37;
+}
+
+h3.spring {
+	color: #c7373d;
+}
+
+h3.kids {
+	color: #788460;
+}
+
+h3.tailgate {
+	color: #073270;
+}
+
+h3:after {
+	font-size: 14px;
+	color: #8f8f8f;
+	margin-left: 30px;
+}
+
+.sobs:after {
+	content: "Fall 2011";
+}
+
+.spring:after {
+	content: "Spring 2011";
+}
+
+.kids:after {
+	content: "Summer 2011";
+}
+
+.tailgate:after {
+	content: "Fall 2011";
+}
+
+#contact {
+	background: #dddddd;
+}
+
+#contact p {
+	font-weight: bold;
+	display: table;
+	padding: 30px 0 30px 0;
+	margin: 0 auto;
+}
+
+#contact a {
+	color: #8f8f8f;
+}
+
+.bigicon2 {
+	margin: 0px auto 0px auto;
+	padding-bottom: 30px;
+	display: block;
+}
+
+@media (max-width: 41.25em){
+	#nav a {
+		display: block;
+	}
+}

@@ -1,0 +1,62 @@
+!!!
+%html
+  %head
+    %title The Tee Standard
+    %meta{:charset => "utf-8"}
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1"}
+    %link{:href => "assets/stylesheets/normalize.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "assets/stylesheets/text.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "assets/stylesheets/grater.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "assets/stylesheets/style.css", :rel => "stylesheet", :type => "text/css"}
+    %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js", :type => "text/javascript"}
+    %script{:src => "assets/javascripts/jquery.localscroll-1.2.7-min.js", :type => "text/javascript"}
+    %script{:src => "assets/javascripts/jquery.scrollTo-1.4.3.1.js", :type => "text/javascript"}
+    %script{:src => "assets/javascripts/script.js", :type => "text/javascript"}
+%body
+  %a{:name => "link1"}
+  #header
+    .grater-container
+      %img#logo{:src => "assets/images/logo.png", :width => "311"}
+      #nav
+        %a.home{:href => "#"} Home
+        %a.about{:href => "#link2"} About
+        %a.contact{:href => "#link3"} Contact
+      %img#hero{:src => "assets/images/hero.jpg", :width => "465"}
+      .herotext The Game tee shirt is a perennial classic.
+      .herotext.blue This year's design is almost here:
+      .counter.blue
+        #days
+        #hours
+        #minutes
+
+  #about
+    .grater-container
+      %a{:name => "link2"}
+        %img.bigicon{:src => "assets/images/icon.png", :width => "92", :height => "92"}
+      .icontext The Tee Standard was founded in 2010 by Florian Koenigsberger, Seth Thompson and Cristina Vere Nicoll.  All our work is motivated by our ultimate goal: setting and meeting a high standard of tee shirt design, production, and overall quality.
+  #shirts
+    .grater-container
+      .grater
+        .showtee
+          %img{:src => "assets/images/springfling.jpg", :height => "460", :width => "300"}
+          %h3.spring Spring Fling
+          %p Yale's annual Spring Fling concert is often abbreviated YSF.  The Tee Standard couldn't resist parodying the logo of high-fashion designer Yves Saint Laurent.
+        .showtee
+          %img{:src => "assets/images/kidswalk.jpg", :height => "460", :width => "300"}
+          %h3.kids Kids Walk for Kids
+          %p Hearts of Gold, a New York-based charity foundation dedicated to helping homeless mothers and their children commissioned this tee shirt for their annual Kids Walk for Kids fundraiser.
+      .grater
+        .showtee
+          %img{:src => "assets/images/tailgate.jpg", :height => "460", :width => "300"}
+          %h3.tailgate The Tailgate Tee
+          %p The Tee Standard created this tee shirt alongside its 2011 Yale / Harvard Game shirt to highlight Yale’s winning streak in the most important part of the Game: the tailgate.
+        .showtee
+          %img{:src => "assets/images/sobs.jpg", :height => "460", :width => "300"}
+          %h3.sobs SOBs Tour Shirt
+          %p The Society of Orpheus and Bacchus, a Yale a capella group needed a shirt for their winter tour that captured a vintage showbill aesthetic.
+  #contact
+    .grater-container
+      %a{:name => "link3"}
+      %p
+        %a{:href => "mailto:theteestandard@gmail.com"} theteestandard@gmail.com
+      %img.bigicon2{:src => "assets/images/icon2.png", :width => "92", :height => "92"}
