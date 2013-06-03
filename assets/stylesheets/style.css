@@ -8,7 +8,7 @@ a {
 	max-width: 100%;
 }
 
-#hero {
+.hero {
 	margin: 50px auto 30px auto;
 	display: block;
 	-moz-border-radius: 5px;
@@ -116,6 +116,10 @@ a {
 	color: white;
 	text-align: center;
 	padding-bottom: 50px;
+}
+
+.icontext a {
+	color: white;
 }
 
 .showtee p {
