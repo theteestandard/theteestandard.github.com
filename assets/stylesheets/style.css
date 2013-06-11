@@ -137,8 +137,16 @@ h3 {
 	margin-bottom: 10px;
 }
 
-h3.sobs {
-	color: #403b37;
+h3.game1 {
+	color: #070e2b;
+}
+
+h3.game2 {
+	color: #67594e;
+}
+
+h3.hockey {
+	color: #434760;
 }
 
 h3.spring {
@@ -159,8 +167,16 @@ h3:after {
 	margin-left: 30px;
 }
 
-.sobs:after {
+.game1:after {
+	content: "Fall 2010";
+}
+
+.game2:after {
 	content: "Fall 2011";
+}
+
+.hockey:after {
+	content: "Spring 2013";
 }
 
 .spring:after {
